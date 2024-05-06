@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Desarrollo web coderhouse",
+    "description": "Desarrollé mi primer proyecto web utilizando HTML para la estructura básica, CSS, SASS y Bootstrap para el diseño visual, y practiqué control de versiones con GIT. La plataforma simula una tienda de fundas para dispositivos Xiaomi y su diseño es completamente responsive. Aunque no incluye funcionalidades interactivas como Javascript, este proyecto marcó mi inicio en el desarrollo web front-end.",
+    "img": {
+      "inicio": "../assets/desarrolloWeb/Funda-Xiaomi-inicio.JPG",
+      "experiencia-phone": "../assets/desarrolloWeb/Funda-Xiaomi-experiencia-phone.jpeg"
+    },
+    "skills": [
+      "Desarrollo web",
+      "HTML5",
+      "Hojas de estilos en cascada (CSS)",
+      "Diseño web adaptable",
+      "Bootstrap"
+    ],
+    "init": "06-22",
+    "end": "08-22"
+  }
+]
