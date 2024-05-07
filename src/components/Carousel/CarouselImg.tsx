@@ -27,11 +27,16 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
       >
         &lt;
       </button>
-      <img
-        className="mx-auto"
-        src={images[currentImageIndex]}
-        alt={`Image ${currentImageIndex + 1}`}
-      />
+      <div className="flex justify-center items-center">
+        <img
+          className="mx-auto"
+          src={images[currentImageIndex]}
+          alt={`Image ${currentImageIndex + 1}`}
+          onError={(e) => {
+            e.currentTarget.className += " text-center";
+          }}
+        />
+      </div>
       <button
         className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded-full"
         onClick={goToNextImage}
