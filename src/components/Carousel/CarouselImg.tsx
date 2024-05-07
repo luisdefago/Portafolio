@@ -22,7 +22,7 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
   return (
     <div className="relative">
       <button
-        className="absolute top-1/2 font-bold left-4 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded-full text-2xl"
+        className="absolute top-1/2 font-bold left-4 transform -translate-y-1/2 bg-gray-500 text-white p-1 rounded-full text-3xl"
         onClick={goToPreviousImage}
       >
         &lt;
@@ -39,7 +39,7 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
         />
       </div>
       <button
-        className="absolute top-1/2 font-bold right-4 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded-full text-2xl" 
+        className="absolute top-1/2 font-bold right-4 transform -translate-y-1/2 bg-gray-500 text-white p-1 rounded-full text-3xl" 
         onClick={goToNextImage}
       >
         &gt;
