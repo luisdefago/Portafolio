@@ -1,6 +1,6 @@
 // interface.tsx
 export interface ProjectImgProps {
-  [key: string]: string;
+  [key: string]: string | undefined;
 }
 
 export interface ProjectProps {
