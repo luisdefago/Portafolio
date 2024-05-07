@@ -22,24 +22,23 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
   return (
     <div className="relative">
       <button
-        className="absolute top-1/2 font-bold left-4 transform -translate-y-1/2 bg-gray-500 text-white p-1 rounded-full text-3xl"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-500 text-white p-1 rounded-full text-3xl sm:text-4xl"
         onClick={goToPreviousImage}
       >
         &lt;
       </button>
       <div className="flex justify-center items-center">
-      <img
-          className="mx-auto"
+        <img
+          className="mx-auto w-full max-w-2xl sm:max-w-none"
           src={images[currentImageIndex]}
           alt={images[currentImageIndex]}
           onError={(e) => {
             e.currentTarget.className += " text-center";
           }}
-          style={{ width: '520px', height: '250px' }} 
         />
       </div>
       <button
-        className="absolute top-1/2 font-bold right-4 transform -translate-y-1/2 bg-gray-500 text-white p-1 rounded-full text-3xl" 
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-500 text-white p-1 rounded-full text-3xl sm:text-4xl"
         onClick={goToNextImage}
       >
         &gt;
@@ -47,5 +46,6 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
     </div>
   );
 };
+
 
 export default CarouselDemo;

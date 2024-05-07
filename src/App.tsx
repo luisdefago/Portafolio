@@ -6,7 +6,7 @@ import Projects from './components/ProyectsMap/ProyectsMap';
 function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Home/>
       <Projects/>
     </>
