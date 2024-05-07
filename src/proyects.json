@@ -64,10 +64,10 @@
     "name": "Indumentaria de la seleccion Argentina",
     "description": "Esta es mi entrega final del curso de JavaScript de Coderhouse, donde desarrollé un e-commerce dedicado a la indumentaria de la selección Argentina. En este proyecto, utilicé JavaScript vanilla para proporcionar una experiencia interactiva al usuario, aprovechando el uso de localStorage para almacenar los productos agregados al carrito. Además, implementé CSS y Bootstrap para el diseño, asegurando una presentación visual atractiva y responsiva en una variedad de dispositivos.",
     "img": {
-      "inicio": "https://i.ibb.co/f9gS9tQ/rick-and-morty-home.jpg",
-      "form": "https://i.ibb.co/x3btkxw/Rick-and-Morty-form.jpg",
-      "fav": "https://i.ibb.co/zX8k7Nw/Rick-and-Morty-favorites.jpg",
-      "about": "https://i.ibb.co/ZmVGPhs/Rick-and-Morty-about-me.jpg"
+      "inicio": "https://i.ibb.co/Q6zNDZF/Indumentaria-de-la-seleccion-inicio.jpg",
+      "filtro": "https://i.ibb.co/QMnB8BY/indumentaria-de-la-seleccion-filtro.jpg",
+      "carrito": "https://i.ibb.co/QH2jqB2/indumentaria-de-la-seleccion-carrito.jpg",
+      "compra": "https://i.ibb.co/FX5XD29/indumentaria-de-la-seleccion-compra.jpg"
     },
     "skills": [
       "Desarrollo web",
@@ -83,10 +83,9 @@
     "name": "Hola Juniors",
     "description": "Este es el maqueteado de mi sitio web personal, siguiendo la estructura diseñada en Figma por @iosonomauri en su canal de YouTube. Este proyecto está construido únicamente con HTML y CSS, y cuenta con un diseño completamente responsive, adaptándose de manera óptima a diferentes dispositivos y tamaños de pantalla.",
     "img": {
-      "inicio": "https://i.ibb.co/f9gS9tQ/rick-and-morty-home.jpg",
-      "form": "https://i.ibb.co/x3btkxw/Rick-and-Morty-form.jpg",
-      "fav": "https://i.ibb.co/zX8k7Nw/Rick-and-Morty-favorites.jpg",
-      "about": "https://i.ibb.co/ZmVGPhs/Rick-and-Morty-about-me.jpg"
+      "inicio": "https://i.ibb.co/bLQhrrk/hola-junior-presentacion.jpg",
+      "habilidades": "https://i.ibb.co/cwPLb6R/hola-junior-habilidades.jpg",
+      "experiencia": "https://i.ibb.co/XbHhvzj/hola-junior-experiencia-1.jpg"
     },
     "skills": [
       "Desarrollo web",
