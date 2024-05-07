@@ -1,10 +1,8 @@
-import { useState } from 'react';
-
 const Home = () => {
   return (
     <section className="flex justify-center mt-10">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-center text-6xl font-semibold text-blue-950 mb-8 mb-14">FullStack Developer</h2>
+      <div className="max-w-4xl mx-auto px-7 lg:px-0">
+        <h2 className="text-center text-5xl md:text-6xl font-semibold text-blue-950 mb-8 mb-14">FullStack Developer</h2>
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 lg:pr-8">
           <p className="text-center mb-4 leading-relaxed">
@@ -24,9 +22,9 @@ const Home = () => {
             <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Typescript</li>
           </ul>
           </div>
-          <div className="lg:w-1/2 lg:pl-8 flex flex-col items-center justify-end mb-auto">
+          <div className="lg:w-1/2 lg:pl-8 flex flex-col items-end justify-end mb-auto">
             <img src="https://avatars.githubusercontent.com/u/102487252?v=4" alt="" className="w-3/4 mb-4 w-52 rounded-full"/>
-            <div className="flex justify-center">
+            <div className="flex justify-center w-52">
               <a href="https://www.linkedin.com/in/luis-defago-005840252/" target="_blank" rel="noopener noreferrer" className="text-gray-700 mr-4 hover:scale-110 transition-transform duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
               <a href="https://github.com/luisdefago?tab=overview&from=2024-05-01&to=2024-05-07" target="_blank" rel="noopener noreferrer" className="text-gray-700 mr-4 hover:scale-110 transition-transform duration-300">

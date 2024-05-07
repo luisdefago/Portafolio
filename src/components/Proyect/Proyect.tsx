@@ -15,7 +15,7 @@ const Project: React.FC<{ project: ProjectProps }> = ({ project }) => {
   const truncatedDescription = description.length > 100 && !expanded ? description.slice(0, 100) + '...' : description;
 
   return (
-    <article className="max-w-lg mx-auto mb-8">
+    <article className="max-w-lg mx-auto mb-8 bg-white rounded-lg shadow-md p-4">
       <h2 className="text-2xl font-bold mb-2">{name}</h2>
       <p className="text-gray-600 mb-4">
         {truncatedDescription}
@@ -45,3 +45,4 @@ const Project: React.FC<{ project: ProjectProps }> = ({ project }) => {
 };
 
 export default Project;
+
