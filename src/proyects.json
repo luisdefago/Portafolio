@@ -3,10 +3,12 @@
     "name": "Interfoods",
     "description": "Aplicación web Full Stack desarrollada como proyecto final en Soy Henry, donde trabajé en equipo con otras 5 personas. La plataforma permite a los usuarios comprar alimentos de diferentes países, crear y editar cuentas personales, así como dejar comentarios sobre platos específicos. Como miembro del equipo, mi contribución inicial se centró en el desarrollo del front-end utilizando React, CSS, Redux y TypeScript. Sin embargo, debido a bajas en el equipo, amplié mi participación al área de back-end, donde utilizamos Sequelize, PostgreSQL, TypeScript, Node.js y Express. Se utilizó la metodología Scrum para la gestión del proyecto.",
     "img": {
-      "inicio": "https://i.ibb.co/f9gS9tQ/rick-and-morty-home.jpg",
-      "form": "https://i.ibb.co/x3btkxw/Rick-and-Morty-form.jpg",
-      "fav": "https://i.ibb.co/zX8k7Nw/Rick-and-Morty-favorites.jpg",
-      "about": "https://i.ibb.co/ZmVGPhs/Rick-and-Morty-about-me.jpg"
+      "inicio": "https://i.ibb.co/mNRqfDg/Home.jpg",
+      "platos": "https://i.ibb.co/MDhnj0P/platos.jpg",
+      "carrito": "https://i.ibb.co/F7qSCP9/carrito.jpg",
+      "inicioSesion": "https://i.ibb.co/djpD8yZ/Inicio-Sesion.jpg",
+      "platosAdmin": "https://i.ibb.co/fHk6zPZ/admin-Platos.jpg",
+      "comentariosAdmin": "https://i.ibb.co/3C3bktF/Admincomentarios.jpg"
     },
     "skills": [
       "Desarrollo Full Stack",
@@ -24,10 +26,10 @@
     "name": "Drivers",
     "description": "Aplicación que tenía como objetivo desarrollar una Single Page Application (SPA) denominada Drivers, inspirada en el mundo de las carreras de Fórmula Uno. La aplicación permitía a los usuarios buscar, visualizar y crear corredores, así como filtrar y ordenar los resultados de búsqueda",
     "img": {
-      "inicio": "https://i.ibb.co/f9gS9tQ/rick-and-morty-home.jpg",
-      "form": "https://i.ibb.co/x3btkxw/Rick-and-Morty-form.jpg",
-      "fav": "https://i.ibb.co/zX8k7Nw/Rick-and-Morty-favorites.jpg",
-      "about": "https://i.ibb.co/ZmVGPhs/Rick-and-Morty-about-me.jpg"
+      "inicio": "https://i.ibb.co/rQjM3DT/Home.jpg",
+      "form": "https://i.ibb.co/cJscLJb/Create.jpg",
+      "landing": "https://i.ibb.co/wLtPm8b/Drivers-Landing.jpg",
+      "detail": "https://i.ibb.co/mNZ28Pg/Detail.jpg"
     },
     "skills": [
       "Desarrollo Full Stack",
