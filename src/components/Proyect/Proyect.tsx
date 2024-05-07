@@ -1,16 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ProjectProps } from "../../utils/interface";
 import CarouselDemo from '../Carousel/CarouselImg';
 
 const Project: React.FC<{ project: ProjectProps }> = ({ project }) => {
   const { name, description, img, skills, init, end } = project;
+  const [expanded, setExpanded] = useState(false);
 
   const images = img !== undefined ? Object.values(img).filter((img) => img !== undefined) : [];
+
+  const handleToggleExpand = () => {
+    setExpanded(!expanded);
+  };
+
+  const truncatedDescription = description.length > 100 && !expanded ? description.slice(0, 100) + '...' : description;
 
   return (
     <article className="max-w-lg mx-auto mb-8">
       <h2 className="text-2xl font-bold mb-2">{name}</h2>
-      <p className="text-gray-600 mb-4">{description}</p>
+      <p className="text-gray-600 mb-4">
+        {truncatedDescription}
+        {description.length > 100 && (
+          <button
+          className="text-gray-800 text-lg pl-4 font-bold hover:text-gray-900 focus:outline-none focus:text-gray-900"
+          onClick={handleToggleExpand}
+        >
+          {expanded ? '-' : '+'}
+        </button>
+        )}
+      </p>
       <CarouselDemo images={images as string[]} />
       <ul className="mt-4 flex flex-wrap">
         {skills.map((skill, index) => (
@@ -24,7 +41,7 @@ const Project: React.FC<{ project: ProjectProps }> = ({ project }) => {
       </p>
     </article>
   );
+  
 };
-
 
 export default Project;
