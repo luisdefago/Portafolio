@@ -11,7 +11,7 @@ const Home = () => {
             🛠️ Adquirí mis primeras bases en Desarrollo Web, JavaScript, React y React Native en cursos de CoderHouse. <br/>
             🚀 Recién egresado del bootcamp de Soy Henry, donde he perfeccionado mis habilidades en: <br/>
           </p>
-          <ul className="mt-4 flex flex-wrap justify-center">
+          <ul className="mt-4 flex flex-wrap justify-center mb-8 lg:mb-0">
             <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</li>
             <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">React</li>
             <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Redux</li>
