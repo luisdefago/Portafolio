@@ -31,7 +31,6 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
           !isHovered && 'md:hidden'
         }`}
         onClick={goToPreviousImage}
-        style={{ opacity: isHovered ? 1 : 0, transition: 'opacity 0.3s ease' }}
       >
         &lt;
       </button>
@@ -50,7 +49,6 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
           !isHovered && 'md:hidden'
         }`}
         onClick={goToNextImage}
-        style={{ opacity: isHovered ? 1 : 0, transition: 'opacity 0.3s ease' }}
       >
         &gt;
       </button>
