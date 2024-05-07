@@ -8,6 +8,7 @@ const Project: React.FC<{ project: ProjectProps }> = ({ project }) => {
 
   return (
     <article className="max-w-lg mx-auto mb-8">
+
       <h2 className="text-2xl font-bold mb-2">{name}</h2>
       <p className="text-gray-600 mb-4">{description}</p>
       <CarouselDemo images={images} /> {/* Pasar el array de imágenes */}
