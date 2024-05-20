@@ -2,6 +2,7 @@
   {
     "name": "Interfoods",
     "description": "Aplicación web Full Stack desarrollada como proyecto final en Soy Henry, donde trabajé en equipo con otras 5 personas. La plataforma permite a los usuarios comprar alimentos de diferentes países, crear y editar cuentas personales, así como dejar comentarios sobre platos específicos. Como miembro del equipo, mi contribución inicial se centró en el desarrollo del front-end utilizando React, CSS, Redux y TypeScript. Sin embargo, debido a bajas en el equipo, amplié mi participación al área de back-end, donde utilizamos Sequelize, PostgreSQL, TypeScript, Node.js y Express. Se utilizó la metodología Scrum para la gestión del proyecto.",
+    "repo": "https://github.com/luisdefago/PF-Henry",
     "img": {
       "inicio": "https://i.ibb.co/mNRqfDg/Home.jpg",
       "platos": "https://i.ibb.co/MDhnj0P/platos.jpg",
@@ -25,6 +26,7 @@
   {
     "name": "Drivers",
     "description": "Aplicación que tenía como objetivo desarrollar una Single Page Application (SPA) denominada Drivers, inspirada en el mundo de las carreras de Fórmula Uno. La aplicación permitía a los usuarios buscar, visualizar y crear corredores, así como filtrar y ordenar los resultados de búsqueda",
+    "repo": "https://github.com/luisdefago/Drivers-PI-Soy-Henry",
     "img": {
       "inicio": "https://i.ibb.co/rQjM3DT/Home.jpg",
       "form": "https://i.ibb.co/cJscLJb/Create.jpg",
@@ -46,6 +48,7 @@
   {
     "name": "Rick and Morty",
     "description": "Mi proyecto integrador del Bootcamp de Full Stack Development de Soy Henry fue una aplicación inspirada en la serie Rick y Morty. Trata de un sitio web donde los usuarios pueden explorar datos de sus personajes y guardar sus favoritos. Utilizando tecnologías como Javascript, React, Redux para el frontend, y NodeJS y Express para el backend.",
+    "repo": "https://github.com/pi-rym/PI-luisdefago",
     "img": {
       "inicio": "https://i.ibb.co/f9gS9tQ/rick-and-morty-home.jpg",
       "form": "https://i.ibb.co/x3btkxw/Rick-and-Morty-form.jpg",
@@ -65,6 +68,7 @@
   {
     "name": "Indumentaria de la seleccion Argentina",
     "description": "Esta es mi entrega final del curso de JavaScript de Coderhouse, donde desarrollé un e-commerce dedicado a la indumentaria de la selección Argentina. En este proyecto, utilicé JavaScript vanilla para proporcionar una experiencia interactiva al usuario, aprovechando el uso de localStorage para almacenar los productos agregados al carrito. Además, implementé CSS y Bootstrap para el diseño, asegurando una presentación visual atractiva y responsiva en una variedad de dispositivos.",
+    "repo": "https://github.com/luisdefago/Javascript-Coder",
     "img": {
       "inicio": "https://i.ibb.co/Q6zNDZF/Indumentaria-de-la-seleccion-inicio.jpg",
       "filtro": "https://i.ibb.co/QMnB8BY/indumentaria-de-la-seleccion-filtro.jpg",
@@ -84,6 +88,7 @@
   {
     "name": "Hola Juniors",
     "description": "Este es el maqueteado de mi sitio web personal, siguiendo la estructura diseñada en Figma por @iosonomauri en su canal de YouTube. Este proyecto está construido únicamente con HTML y CSS, y cuenta con un diseño completamente responsive, adaptándose de manera óptima a diferentes dispositivos y tamaños de pantalla.",
+    "repo": "https://github.com/luisdefago/HolaJuniors",
     "img": {
       "inicio": "https://i.ibb.co/bLQhrrk/hola-junior-presentacion.jpg",
       "habilidades": "https://i.ibb.co/cwPLb6R/hola-junior-habilidades.jpg",
@@ -102,6 +107,7 @@
   {
     "name": "Desarrollo web coderhouse",
     "description": "Desarrollé mi primer proyecto web utilizando HTML para la estructura básica, CSS, SASS y Bootstrap para el diseño visual, y practiqué control de versiones con GIT. La plataforma simula una tienda de fundas para dispositivos Xiaomi y su diseño es completamente responsive. Aunque no incluye funcionalidades interactivas como Javascript, este proyecto marcó mi inicio en el desarrollo web front-end.",
+    "repo": "https://github.com/luisdefago/Desarrollo-Web-Coder",
     "img": {
       "inicio": "https://i.ibb.co/8cz2JMP/Funda-Xiaomi-inicio.jpg",
       "carrito": "https://i.ibb.co/126JwmK/Funda-Xiaomi-tienda.jpg",

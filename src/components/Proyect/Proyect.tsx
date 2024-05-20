@@ -3,7 +3,7 @@ import { ProjectProps } from "../../utils/interface";
 import CarouselDemo from '../Carousel/CarouselImg';
 
 const Project: React.FC<{ project: ProjectProps }> = ({ project }) => {
-  const { name, description, img, skills, init, end } = project;
+  const { name, description, repo, img, skills, init, end } = project;
   const [expanded, setExpanded] = useState(false);
 
   const images = img !== undefined ? Object.values(img).filter((img) => img !== undefined) : [];
@@ -16,7 +16,11 @@ const Project: React.FC<{ project: ProjectProps }> = ({ project }) => {
 
   return (
     <article className="max-w-lg mx-auto mb-8 bg-white rounded-lg shadow-md p-4">
-      <h2 className="text-2xl font-bold mb-2">{name}</h2>
+      <a href={repo} target="_blank" rel="noopener noreferrer" className="inline-block">
+        <h4 className="inline-block text-2xl font-bold mb-2 hover:border-b hover:border-black transition-all duration-100">
+          {name}
+        </h4>
+      </a>
       <p className="text-gray-600 mb-4">
         {truncatedDescription}
         {description.length > 100 && (

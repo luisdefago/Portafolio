@@ -6,6 +6,7 @@ export interface ProjectImgProps {
 export interface ProjectProps {
   name: string;
   description: string;
+  repo: string;
   img: ProjectImgProps;
   skills: string[];
   init: string;
