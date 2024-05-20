@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 interface CarouselDemoProps {
   images: string[];
@@ -7,25 +7,18 @@ interface CarouselDemoProps {
 const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
-  const [loading, setLoading] = useState(true);
 
   const goToPreviousImage = () => {
-    setLoading(true);
     setCurrentImageIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
   const goToNextImage = () => {
-    setLoading(true);
     setCurrentImageIndex((prevIndex) =>
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
-
-  useEffect(() => {
-    setLoading(true);
-  }, [currentImageIndex]);
 
   return (
     <div
@@ -42,14 +35,13 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
         &lt;
       </button>
       <div className="flex justify-center items-center">
-        {loading && <div className="absolute">Cargando...</div>}
         <img
           className="mx-auto w-full max-w-2xl sm:max-w-none"
           src={images[currentImageIndex]}
           alt={images[currentImageIndex]}
-          onLoad={() => setLoading(false)}
-          onError={() => setLoading(false)}
-          style={loading ? { display: 'none' } : {}}
+          onError={(e) => {
+            e.currentTarget.className += ' text-center';
+          }}
         />
       </div>
       <button
