@@ -8,12 +8,12 @@ const Nav = () => {
         <nav>
           <ul className="flex space-x-8 text-xl lg:text-2xl font-bold">
             <li>
-              <a href="#Projects" className="hover:text-gray-300">
+              <a href="#Projects" className="hover:text-gray-300 transition-all duration-300">
                 Proyectos
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/luis-defago-005840252/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+              <a href="https://www.linkedin.com/in/luis-defago-005840252/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-all duration-300">
                 Contacto
               </a>
             </li>
