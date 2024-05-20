@@ -28,7 +28,7 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
     >
       <button
         className={`absolute top-0 bottom-0 left-0 bg-black bg-opacity-50 text-white text-4xl w-12 flex justify-center items-center transition-opacity duration-300 ${
-          !isHovered ? 'opacity-0 md:opacity-0' : 'opacity-100'
+          isHovered ? 'md:opacity-100' : 'opacity-100 md:opacity-0'
         }`}
         onClick={goToPreviousImage}
       >
@@ -46,7 +46,7 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
       </div>
       <button
         className={`absolute top-0 bottom-0 right-0 bg-black bg-opacity-50 text-white text-4xl w-12 flex justify-center items-center transition-opacity duration-300 ${
-          !isHovered ? 'opacity-0 md:opacity-0' : 'opacity-100'
+          isHovered ? 'md:opacity-100' : 'opacity-100 md:opacity-0'
         }`}
         onClick={goToNextImage}
       >
