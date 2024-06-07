@@ -11,4 +11,5 @@ export interface ProjectProps {
   skills: string[];
   init: string;
   end: string;
+  deploy?: string; 
 }

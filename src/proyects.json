@@ -21,7 +21,8 @@
       "PostgreSQL"
     ],
     "init": "02-24",
-    "end": "03-24"
+    "end": "03-24",
+    "deploy": "https://interfoods.netlify.app/"
   },
   {
     "name": "Drivers",
@@ -83,7 +84,8 @@
       "Bootstrap"
     ],
     "init": "10-22",
-    "end": "12-22"
+    "end": "12-22",
+    "deploy": "https://luisdefago.github.io/Javascript-Coder"
   },
   {
     "name": "Hola Juniors",
@@ -102,7 +104,8 @@
       "Figma"
     ],
     "init": "10-22",
-    "end": "10-22"
+    "end": "10-22",
+    "deploy": "https://luisdefago.github.io/HolaJuniors/"
   },
   {
     "name": "Desarrollo web coderhouse",
@@ -121,6 +124,7 @@
       "Bootstrap"
     ],
     "init": "06-22",
-    "end": "08-22"
+    "end": "08-22",
+    "deploy": "https://luisdefago.github.io/Desarrollo-Web-Coder/"
   }
 ]
