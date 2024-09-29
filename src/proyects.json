@@ -29,10 +29,10 @@
     "description": "Aplicación que tenía como objetivo desarrollar una Single Page Application (SPA) denominada Drivers, inspirada en el mundo de las carreras de Fórmula Uno. La aplicación permitía a los usuarios buscar, visualizar y crear corredores, así como filtrar y ordenar los resultados de búsqueda",
     "repo": "https://github.com/luisdefago/Drivers-PI-Soy-Henry",
     "img": {
-      "inicio": "https://i.ibb.co/rQjM3DT/Home.jpg",
-      "form": "https://i.ibb.co/cJscLJb/Create.jpg",
-      "landing": "https://i.ibb.co/wLtPm8b/Drivers-Landing.jpg",
-      "detail": "https://i.ibb.co/mNZ28Pg/Detail.jpg"
+      "landing": "/drivers/Drivers-Landing.jpg",
+      "inicio": "/drivers/Home.jpg",
+      "detail": "/drivers/Detail.jpg",
+      "form": "/drivers/Create.jpg"
     },
     "skills": [
       "Desarrollo Full Stack",
