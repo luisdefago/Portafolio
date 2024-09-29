@@ -23,7 +23,7 @@
     ],
     "init": "08-24",
     "end": "09-24",
-    "deploy": ""
+    "deploy": "https://osar-j8s8.vercel.app"
   },
   {
     "name": "Interfoods",
