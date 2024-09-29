@@ -36,7 +36,7 @@ const Home = () => {
               </a>
             </div>
             <div className="flex justify-center w-52">
-              <a href="https://drive.google.com/uc?export=download&id=1q5vetmPJfb4NvXnYAFBDDs16_vd1DZV6" download className="mt-4 bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-colors duration-300 font-semibold">
+              <a href="https://drive.google.com/uc?export=download&id=1YqQjRRwiuk16aTbm3AQHxYjWgmSPc9VQ" download className="mt-4 bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-colors duration-300 font-semibold">
                 Descargar CV
               </a>
             </div>
