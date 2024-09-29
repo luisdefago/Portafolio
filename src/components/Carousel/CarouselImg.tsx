@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface CarouselDemoProps {
   images: string[];
@@ -19,6 +19,10 @@ const CarouselDemo: React.FC<CarouselDemoProps> = ({ images }) => {
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
+  
+  useEffect(() => {
+    console.log(images[currentImageIndex]);
+  }, [currentImageIndex]);
 
   return (
     <div
