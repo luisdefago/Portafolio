@@ -4,12 +4,12 @@
     "description": "Aplicación web Full Stack desarrollada como proyecto final en Soy Henry, donde trabajé en equipo con otras 5 personas. La plataforma permite a los usuarios comprar alimentos de diferentes países, crear y editar cuentas personales, así como dejar comentarios sobre platos específicos. Como miembro del equipo, mi contribución inicial se centró en el desarrollo del front-end utilizando React, CSS, Redux y TypeScript. Sin embargo, debido a bajas en el equipo, amplié mi participación al área de back-end, donde utilizamos Sequelize, PostgreSQL, TypeScript, Node.js y Express. Se utilizó la metodología Scrum para la gestión del proyecto.",
     "repo": "https://github.com/luisdefago/PF-Henry",
     "img": {
-      "inicio": "https://i.ibb.co/mNRqfDg/Home.jpg",
-      "platos": "https://i.ibb.co/MDhnj0P/platos.jpg",
-      "carrito": "https://i.ibb.co/F7qSCP9/carrito.jpg",
-      "inicioSesion": "https://i.ibb.co/djpD8yZ/Inicio-Sesion.jpg",
-      "platosAdmin": "https://i.ibb.co/fHk6zPZ/admin-Platos.jpg",
-      "comentariosAdmin": "https://i.ibb.co/3C3bktF/Admincomentarios.jpg"
+      "inicio": "/interfood/Home.jpg",
+      "platos": "/interfood/platos.jpg",
+      "carrito": "/interfood/carrito.jpg",
+      "platosAdmin": "/interfood/admin-Platos.jpg",
+      "comentariosAdmin": "/interfood/Admincomentarios.jpg",
+      "inicioSesion": "/interfood/Inicio-Sesion.jpg"
     },
     "skills": [
       "Desarrollo Full Stack",
