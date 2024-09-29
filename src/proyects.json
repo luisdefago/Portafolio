@@ -1,5 +1,31 @@
 [
   {
+    "name": "Sistema de Gestión de Pagos y Cuentas",
+    "description": "Desarrollé un sistema para la Organización Sudamericana de Autorealización (OSAR) que permite a los socios gestionar sus pagos y recibos de forma eficiente. Los usuarios pueden consultar cuotas pendientes, acceder a los datos bancarios para realizar transferencias, enviar comprobantes y cambiar su contraseña. Los administradores cuentan con funciones avanzadas, como la creación, edición y eliminación de cuentas de usuarios y recibos, así como la capacidad de filtrar usuarios por nombre.",
+    "repo": "https://github.com/luisdefago/osar",
+    "img": {
+      "inicio": "/osar/osar-inicio-sesion.png",
+      "Comprobantes del socio": "/osar/osar-comprobantes-usuario.png",
+      "Inicio Admin": "/osar/osar-admin-inicio.png",
+      "Comprobantes Admin": "/osar/osar-comprobantes-admin.png",
+      "Datos transferencia": "/osar/osar-editar-datos-transferencia.png",
+      "Editar usuario": "/osar/osar-editar-usuario.png"
+    },
+    "skills": [
+      "Desarrollo Full Stack",
+      "React.js",
+      "Zustand",
+      "Node.js",
+      "Express.js",
+      "Sequelize",
+      "PostgreSQL",
+      "Firebase"
+    ],
+    "init": "08-24",
+    "end": "09-24",
+    "deploy": ""
+  },
+  {
     "name": "Interfoods",
     "description": "Aplicación web Full Stack desarrollada como proyecto final en Soy Henry, donde trabajé en equipo con otras 5 personas. La plataforma permite a los usuarios comprar alimentos de diferentes países, crear y editar cuentas personales, así como dejar comentarios sobre platos específicos. Como miembro del equipo, mi contribución inicial se centró en el desarrollo del front-end utilizando React, CSS, Redux y TypeScript. Sin embargo, debido a bajas en el equipo, amplié mi participación al área de back-end, donde utilizamos Sequelize, PostgreSQL, TypeScript, Node.js y Express. Se utilizó la metodología Scrum para la gestión del proyecto.",
     "repo": "https://github.com/luisdefago/PF-Henry",
