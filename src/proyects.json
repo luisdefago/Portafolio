@@ -112,9 +112,11 @@
     "description": "Desarrollé mi primer proyecto web utilizando HTML para la estructura básica, CSS, SASS y Bootstrap para el diseño visual, y practiqué control de versiones con GIT. La plataforma simula una tienda de fundas para dispositivos Xiaomi y su diseño es completamente responsive. Aunque no incluye funcionalidades interactivas como Javascript, este proyecto marcó mi inicio en el desarrollo web front-end.",
     "repo": "https://github.com/luisdefago/Desarrollo-Web-Coder",
     "img": {
-      "inicio": "https://i.ibb.co/8cz2JMP/Funda-Xiaomi-inicio.jpg",
-      "carrito": "https://i.ibb.co/126JwmK/Funda-Xiaomi-tienda.jpg",
-      "nosotros": "https://i.ibb.co/G0ZyDSk/Funda-Xiaomi-nosotros.jpg"
+      "inicio": "/desarrolloWeb/Funda-Xiaomi-inicio.jpg",
+      "tienda": "/desarrolloWeb/Funda-Xiaomi-tienda.jpg",
+      "nosotros": "/desarrolloWeb/Funda-Xiaomi-nosotros.jpg",
+      "contacto": "/desarrolloWeb/Funda-Xiaomi-contacto.jpg",
+      "ofertas": "/desarrolloWeb/Funda-Xiaomi-ofertas.jpg"
     },
     "skills": [
       "Desarrollo web",

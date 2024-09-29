@@ -6,20 +6,20 @@ const Home = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 lg:pr-8">
             <p className="text-center mb-4 leading-relaxed">
-              ¡Hola! 👋 Soy Luis, un apasionado desarrollador Full Stack. <br/>
-              🎓 Estudiante de Ingeniería en Sistemas (UTN). <br/>
-              🛠️ Adquirí mis primeras bases en Desarrollo Web, JavaScript, React y React Native en cursos de CoderHouse. <br/>
-              🚀 Recién egresado del bootcamp de Soy Henry, donde he perfeccionado mis habilidades en: <br/>
+              🎓 Estudiante de Ingeniería en Sistemas (UTN) <br/>
+              🛠️ Egresado de la carrera de desarrollo de aplicaciones de CoderHouse<br/>
+              🚀 Egresado del bootcamp de Soy Henry<br/>
             </p>
             <ul className="mt-4 flex flex-wrap justify-center mb-8 lg:mb-0">
-              <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</li>
+              <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Typescript</li>
               <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">React</li>
+              <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">React Native</li>
               <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Redux</li>
+              <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Zustand</li>
               <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Node.js</li>
               <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Express</li>
               <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PostgreSQL</li>
               <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">SQL</li>
-              <li className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Typescript</li>
             </ul>
           </div>
           <div className="lg:w-1/2 lg:pl-8 flex flex-col items-end justify-end mb-auto">
